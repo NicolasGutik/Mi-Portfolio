@@ -4,6 +4,7 @@
 
   .navbar__menu {
     display: flex;
+    padding-right: 15px;
   }
 
   .navbar__links {
@@ -82,6 +83,7 @@
 
   .about__skills {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-bottom: 20px;
   }
 
   .button--cta {
@@ -153,11 +155,25 @@
 
   .contact__grid {
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 0;
   }
 
   .contact__item {
     padding: 18px;
     border-radius: 10px;
     transition: all 0.3s;
+  }
+
+  .home__description{
+    flex-flow: column;
+  }
+  .home__title--h1{
+    padding-top: 0;
+  }
+
+  .anashe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

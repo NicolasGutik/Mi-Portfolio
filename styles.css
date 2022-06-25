@@ -14,6 +14,7 @@
   --orange:#e34c26; 
   --green:#008744;
   --blueReact: #61DBFB;
+  --redAngular: 	#ff1100;
 }
 
 a {
@@ -143,7 +144,7 @@ section {
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
   border-radius: 50px;
-  width: 1000px;
+  width: 60%;
   height: 500px;
   justify-content: center;
   padding-top: 35px;
@@ -259,7 +260,6 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
-  margin-left: 100px;
   background: rgba(231, 225, 225, 0.116);
   border-radius: 30px;
   padding-left: 10px;
@@ -313,6 +313,10 @@ section {
 
 .fa-node-js{
   color: green;
+}
+
+.fa-angular{
+  color: var(--redAngular);
 }
 
 
@@ -497,7 +501,6 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 30px;
-  padding-left: 200px;
   margin-bottom: 60px;
 }
 
@@ -517,6 +520,13 @@ section {
   color: var(--grey);
   padding: 40px;
   transition: all 0.3s;
+}
+
+
+.anashe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .fa-envelope{
