@@ -14,7 +14,6 @@
     flex-direction: column;
     background: rgba(0, 0, 0, 0.97);
     font-size: 30px;
-    margin: 0 -20px;
     z-index: 10;
     transform: translateX(100%);
     opacity: 0;
@@ -56,7 +55,9 @@
   }
 
   .section__title {
+    display: block;
     font-size: 25px;
+    padding-top: 28px;
   }
 
   .section__title:after {
@@ -71,6 +72,15 @@
 
   .about__description {
     padding-right: 0px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .skill__item{
+    margin-bottom: 20px;
   }
 
   .about__grid {
@@ -78,7 +88,9 @@
   }
 
   .skill__title {
-    grid-column: span 4;
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
   }
 
   .about__skills {
@@ -166,6 +178,9 @@
 
   .home__description{
     flex-flow: column;
+    align-items: center;
+    width: 90%;
+    height: 630px;
   }
   .home__title--h1{
     padding-top: 0;

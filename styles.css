@@ -258,7 +258,7 @@ section {
 
 .about__skills {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 10px;
   background: rgba(231, 225, 225, 0.116);
   border-radius: 30px;
@@ -268,7 +268,7 @@ section {
 
 .skill__title {
   color: var(--grey);
-  grid-column: span 3;
+  grid-column: span 5;
   text-align: left;
   margin: 20px 0;
   padding-top: 20px;
@@ -319,6 +319,13 @@ section {
   color: var(--redAngular);
 }
 
+.fa-yarn{
+  color: #0e76a8;
+}
+
+.fa-npm{
+  color: #d62d20;
+}
 
 .skill__name {
   font-size: 16px;
@@ -528,6 +535,7 @@ section {
   justify-content: center;
   align-items: center;
 }
+
 
 .fa-envelope{
   color: var(--red);
