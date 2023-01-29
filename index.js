@@ -38,7 +38,7 @@ function intersectionHandler(entry) {
   const id = entry.target.id;
   const currentlyActive = document.querySelector(".navbar__links  .active");
   const linkActive = document.querySelector(
-    ".navbar__links [data-ref=" + id + "]"
+    ".navbar__links [data-ref=" + id + " ]"
   );
 
   if (currentlyActive) {
@@ -49,22 +49,10 @@ function intersectionHandler(entry) {
   }
 }
 
-// window.addEventListener("mousemove", parallax);
-
-// function parallax(e) {
-//   elements.forEach((item) => {
-//     const speed = item.getAttribute("data-speed");
-//     console.log(speed);
-//     const x = (window.innerWidth - e.pageX * speed) / 100;
-//     const y = (window.innerHeight - e.pageY * speed) / 100;
-//     item.style.transform = `translateX(${x}px) translateY(${y}px)`;
-//   });
-// }
-
 ScrollReveal().reveal(".navbar", { delay: 250 });
 ScrollReveal().reveal(".home__profile", { delay: 350 });
 ScrollReveal().reveal(".home__title--primary", { delay: 350 });
-ScrollReveal().reveal(".home__title", { delay: 450 });
+ScrollReveal().reveal(".home__title--h1", { delay: 450 });
 ScrollReveal().reveal(".home__title--secondary", { delay: 550 });
 ScrollReveal().reveal(".section__title", { delay: 250 });
 ScrollReveal().reveal(".section__subtitle", { delay: 350 });
